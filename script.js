@@ -27,8 +27,6 @@ function calculaMedia(notaPrimeiraProva, notaSegundaProva) {
     return media;
 }
 
-calculaMedia(aluno[0].notaPrimeiraProva, aluno[0].notaSegundaProva)
-
  for (i=0; i<aluno.length; i++)
 {
     let mediaTotal = calculaMedia(aluno[i].notaPrimeiraProva, aluno[i].notaSegundaProva)
